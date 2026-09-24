@@ -42,9 +42,9 @@ public class Main {
         }
 
         double trungBinhTienTe = (demTienTe > 0) ? (tongThanhTienTienTe / demTienTe) : 0;
-        System.out.println("Trung bình thành tiền: " + String.format("%,.2f", trungBinhTienTe) + " VNĐ");
+        System.out.println("trung binh thanh tien: " + String.format("%,.2f", trungBinhTienTe) + " VNĐ");
         
-        System.out.println("\n=== DANH SÁCH GIAO DỊCH CÓ ĐƠN GIÁ > 1 TỶ ===");
+        System.out.println("\n=== danh sach co giao dich > 1 ty ===");
         double motTy = 1_000_000_000.0;
         
         for (GiaoDich gd : dsGiaoDich) {
